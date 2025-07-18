@@ -1,0 +1,73 @@
+{
+  "primer_year": {
+    "primer_semestre": [
+      {"nombre": "Educación, Sociedad y Desarrollo Humano", "prerrequisito": "Ninguno"},
+      {"nombre": "Tecnologías de la Información en el Aula", "prerrequisito": "Ninguno"},
+      {"nombre": "Álgebra y Trigonometría", "prerrequisito": "Ninguno"},
+      {"nombre": "Geometría I", "prerrequisito": "Ninguno"},
+      {"nombre": "Introducción al Razonamiento Matemático", "prerrequisito": "Ninguno"}
+    ],
+    "segundo_semestre": [
+      {"nombre": "La Profesión Docente", "prerrequisito": "Educación, Sociedad y Desarrollo Humano"},
+      {"nombre": "Alfabetización Académica en Pedagogía", "prerrequisito": "Ninguno"},
+      {"nombre": "Cálculo Diferencial e Integral", "prerrequisito": "Álgebra y Trigonometría"},
+      {"nombre": "Álgebra Lineal", "prerrequisito": "Álgebra y Trigonometría"},
+      {"nombre": "Software Matemático", "prerrequisito": "Tecnologías de la Información en el Aula"}
+    ]
+  },
+  "segundo_year": {
+    "tercer_semestre": [
+      {"nombre": "Inclusión y Exclusión Social en Educación", "prerrequisito": "Educación, Sociedad y Desarrollo Humano"},
+      {"nombre": "Electivo 1", "prerrequisito": "Ninguno"},
+      {"nombre": "Electivo 2", "prerrequisito": "Ninguno"},
+      {"nombre": "Cálculo en varias variables", "prerrequisito": "Cálculo Diferencial e Integral"},
+      {"nombre": "Matemática discreta", "prerrequisito": "Álgebra y Trigonometría"},
+      {"nombre": "Enseñanza y Aprendizaje de los Sistemas Numéricos", "prerrequisito": "Álgebra y Trigonometría"}
+    ],
+    "cuarto_semestre": [
+      {"nombre": "Psicología Educativa", "prerrequisito": "Inclusión y Exclusión Social en Educación"},
+      {"nombre": "Electivo 3", "prerrequisito": "Ninguno"},
+      {"nombre": "Complementario 1", "prerrequisito": "Ninguno"},
+      {"nombre": "Geometría II", "prerrequisito": "Geometría I"},
+      {"nombre": "Estructuras Algebraicas", "prerrequisito": "Matemática discreta"},
+      {"nombre": "Resolución de Problemas I", "prerrequisito": "Introducción al Razonamiento Matemático"},
+      {"nombre": "Multimedios e Hipermedios en Educación Matemática", "prerrequisito": "Software Matemático"}
+    ]
+  },
+  "tercer_year": {
+    "quinto_semestre": [
+      {"nombre": "Teorías y Diseños Curriculares", "prerrequisito": "Inclusión y Exclusión Social en Educación"},
+      {"nombre": "Evaluación para el Aprendizaje", "prerrequisito": "Psicología Educativa"},
+      {"nombre": "Práctica Inicial: Gestión de los Procesos Curriculares y Evaluativos", "prerrequisito": "Psicología Educativa, Cálculo Diferencial e Integral"},
+      {"nombre": "Educación Matemática I", "prerrequisito": "Resolución de Problemas I"},
+      {"nombre": "Estadística", "prerrequisito": "Cálculo Diferencial e Integral"},
+      {"nombre": "Enseñanza y Aprendizaje de la Geometría para la Enseñanza Media", "prerrequisito": "Geometría I"}
+    ],
+    "sexto_semestre": [
+      {"nombre": "Orientación Educacional", "prerrequisito": "Evaluación para el Aprendizaje, Práctica Inicial"},
+      {"nombre": "Análisis Organizacional y Liderazgo Educativo", "prerrequisito": "Psicología Educativa"},
+      {"nombre": "Electivo", "prerrequisito": "Ninguno"},
+      {"nombre": "Práctica Intermedia I: Orientación para la Formación Integral", "prerrequisito": "Práctica Inicial, Matemática Discreta"},
+      {"nombre": "Inferencia Estadística y Muestreo", "prerrequisito": "Estadística"},
+      {"nombre": "Electivo Matemático I", "prerrequisito": "Ninguno"},
+      {"nombre": "Enseñanza y Aprendizaje del Álgebra y las Funciones", "prerrequisito": "Estructuras Algebraicas"}
+    ]
+  },
+  "cuarto_year": {
+    "septimo_semestre": [
+      {"nombre": "Fundamentos y Principios Didácticos de la Especialidad", "prerrequisito": "Práctica Intermedia I: Orientación para la Formación Integral, Enseñanza y Aprendizaje del Álgebra y las Funciones, Geometría II"},
+      {"nombre": "Práctica Intermedia II: Didáctica de la Especialidad", "prerrequisito": "Práctica Inicial: Gestión de los Procesos Curriculares y Evaluativos, Enseñanza y Aprendizaje del Álgebra y las Funciones, Enseñanza y Aprendizaje de la Geometría para la Enseñanza Media"},
+      {"nombre": "Educación Matemática II", "prerrequisito": "Educación Matemática I"},
+      {"nombre": "Electivo matemático II", "prerrequisito": "Ninguno"},
+      {"nombre": "Enseñanza y Aprendizaje de la Estadística y las Probabilidades para la Enseñanza Media", "prerrequisito": "Estadística"}
+    ],
+    "octavo_semestre": [
+      {"nombre": "Métodos de la Investigación Educacional", "prerrequisito": "Práctica Intermedia II, Inferencia Estadística y Muestreo"},
+      {"nombre": "Diseño e Implementación Didáctica en la Especialidad", "prerrequisito": "Fundamentos y Principios Didácticos de la Especialidad, Práctica Intermedia II: Didáctica de la Especialidad"},
+      {"nombre": "Práctica Avanzada: Diseños Didácticos de la Especialidad", "prerrequisito": "Práctica Intermedia II, Enseñanza y Aprendizaje de la Estadística y las Probabilidades para la Enseñanza Media, Educación Matemática II"},
+      {"nombre": "Resolución de Problemas II", "prerrequisito": "Educación Matemática I"},
+      {"nombre": "Seminario Historia de la Matemática", "prerrequisito": "Cálculo en varias variables, Geometría II, Estructuras Algebraicas"},
+      {"nombre": "TIC en la Enseñanza y el Aprendizaje de la Matemática", "prerrequisito": "Multimedios e Hipermedios en Educación Matemática"}
+    ]
+  }
+}
